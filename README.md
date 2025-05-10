@@ -26,8 +26,7 @@ A desktop application built with Python and Tkinter to help you track and manage
 1.  **Clone the repository (or download the files):**
 
     ```bash
-    git clone <your-repository-url>
-    cd <repository-name>
+    git clone https://github.com/mlnima/job-applications-manager.git
     ```
 
     Or simply download the Python script (`main.py`) and the `applications.json` (if you have one already or it will be created).
@@ -35,7 +34,7 @@ A desktop application built with Python and Tkinter to help you track and manage
 2.  **Navigate to the project directory:**
 
     ```bash
-    cd path/to/your/app
+    cd job-applications-manager
     ```
 
 3.  **(Optional but Recommended) Create and activate a virtual environment:**
@@ -56,7 +55,7 @@ A desktop application built with Python and Tkinter to help you track and manage
 
 4.  **Run the application:**
     ```bash
-    python your_script_name.py
+    main.py
     ```
     (Replace `main.py` with the actual name of your Python file).
 
@@ -75,13 +74,13 @@ To package the application into a single executable file, you can use PyInstalle
     Navigate to your project directory in the terminal and run the following command:
 
     ```bash
-    pyinstaller --onefile --windowed --name JobAppManager your_script_name.py
+    pyinstaller --onefile --windowed --name JobAppManager main.py
     ```
 
     - `--onefile`: Creates a single executable file.
     - `--windowed` (or `-w`): Prevents the command-line console from appearing when the GUI application runs.
     - `--name JobAppManager`: Sets the name of your executable.
-    - `your_script_name.py`: Replace with the actual name of your Python script.
+    - `main.py`: Replace with the actual name of your Python script.
 
     After the build process is complete, you will find the executable in a `dist` folder within your project directory.
 
@@ -93,7 +92,7 @@ To package the application into a single executable file, you can use PyInstalle
 
 ```text
 .
-├── your_script_name.py     # Main application script
+├── main.py    # Main application script
 ├── applications.json       # Data file (created/used by the app)
 ├── placeholder_app_preview.png # Screenshot of the app
 ├── requirements.txt        # Python dependencies (empty for this app)
