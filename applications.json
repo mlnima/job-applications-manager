@@ -1,0 +1,29 @@
+[
+  {
+    "date": "10/05/2025",
+    "company": "Microsoft",
+    "job": "CEO",
+    "description": "using HTML5 to train an AI",
+    "status": "pending",
+    "timestamp": 1746828000.0,
+    "id": 1
+  },
+  {
+    "date": "10/05/2025",
+    "company": "Google",
+    "job": "CTO",
+    "description": "searching the search in google",
+    "status": "pending",
+    "timestamp": 1746828000.0,
+    "id": 2
+  },
+  {
+    "date": "10/05/2025",
+    "company": "OpenAI",
+    "job": "DevOps",
+    "description": "helping chatGPT answernig users questions",
+    "status": "pending",
+    "timestamp": 1746828000.0,
+    "id": 3
+  }
+]

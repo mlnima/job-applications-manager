@@ -1,0 +1,4 @@
+# No external libraries are required for this project beyond standard Python installations.
+# Tkinter, json, datetime, and os are part of the Python Standard Library.
+# If you were using external libraries, they would be listed here, e.g.:
+# package_name==version_number
