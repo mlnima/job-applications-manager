@@ -2,8 +2,7 @@
 
 A desktop application built with Python and Tkinter to help you track and manage your job applications.
 
-![App Preview](placeholder_app_preview.png)
-_(Replace `preview.png` with an actual screenshot of your application)_
+![App Preview](preview.png)
 
 ## Features
 
